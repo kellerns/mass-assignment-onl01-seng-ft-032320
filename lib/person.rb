@@ -6,9 +6,4 @@ class Person
     attribute_hash.each {|key, value| self.send("#{key}=", value)}
   end
 
-
-
-
-
-
 end
